@@ -1,4 +1,4 @@
-
+import Tag from "./Tag"
 
 function Tags() {
 
@@ -16,16 +16,20 @@ function Tags() {
         <tbody class="divide-y divide-gray-800">
           <tr>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-300">
-              <li>Go (gin, InfluxDB, PostgreSQL)</li>
+                <Tag tag="Go" />:
+                <ul class="list-disc px-6">
+                  <li><Tag tag="gin" />, <Tag tag="telegram-bot-api" /></li>
+                  <li><Tag tag="InfluxDB" />, <Tag tag="PostgreSQL" />, <Tag tag="Prometheus" /></li>
+                </ul>
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-300">
-              <li>JavaScript, TypeScript</li>
-              <li>React (MobX), SolidJS</li>
-              <li>Bootstrap, Tailwind CSS</li>
+              <li><Tag tag="JavaScript" />, <Tag tag="TypeScript" /></li>
+              <li><Tag tag="React" /> (<Tag tag="MobX" />), <Tag tag="SolidJS" /></li>
+              <li><Tag tag="Bootstrap" />, <Tag tag="Tailwind CSS" /></li>
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-300">
-              <li>Flutter (Android)</li>
-              <li>Firefox Extension</li>
+              <li><Tag tag="Flutter" /> (Android)</li>
+              <li><Tag tag="Firefox Extension" /></li>
             </td>
           </tr>
         </tbody>

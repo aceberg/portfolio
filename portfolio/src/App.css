@@ -1,5 +1,11 @@
 @import "tailwindcss";
+@import "bootstrap-icons";
 
 .card {
     @apply rounded-2xl border border-gray-800 bg-gray-900 p-6 hover:border-gray-700 transition
 }
+
+.mytag {
+    @apply font-medium text-sm text-indigo-400 hover:text-indigo-300 transition cursor-pointer
+}
+  
