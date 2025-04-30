@@ -7,7 +7,7 @@ function Cards() {
 
   return (
     <>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
         <For each={myApps()}>{(app) =>
           <SingleCard app={app}></SingleCard>
         }</For>

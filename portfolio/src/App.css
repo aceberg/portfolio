@@ -1,11 +1,17 @@
 @import "tailwindcss";
-@import "bootstrap-icons";
 
-.card {
+.mycard {
     @apply rounded-2xl border border-gray-800 bg-gray-900 p-6 hover:border-gray-700 transition
 }
 
 .mytag {
     @apply font-medium text-sm text-indigo-400 hover:text-indigo-300 transition cursor-pointer
 }
-  
+
+.mytip {
+    @apply absolute bottom-full mb-2 left-1/2 -translate-x-1/2 px-2 py-1 rounded bg-gray-800 text-white text-sm opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap
+}
+
+.mysort {
+    @apply block w-full px-4 py-2 text-sm text-gray-400 border border-gray-800 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+}

@@ -4,7 +4,7 @@ function Tags() {
 
   return (
     <>
-    <div class="overflow-x-auto mt-2 mb-8">
+    <div class="overflow-x-auto mt-2 mb-4">
       <table class="min-w-full table-auto divide-y divide-gray-700 bg-gray-900 rounded-xl overflow-hidden">
         <thead class="bg-gray-800">
           <tr>
