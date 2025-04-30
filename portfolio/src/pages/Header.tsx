@@ -14,9 +14,9 @@ function Header() {
 
   return (
     <>
-    <nav class="text-white">
-      <div class="flex items-center justify-between">
-        <div class="flex space-x-6 p-4 px-12">
+    <nav class="text-white border-gray-800 border-b">
+      <div class="flex justify-between p-4 px-12">
+        <div class="flex space-x-6">
         <Show
             when={currentPage() === "portfolio"}
             fallback={<>
@@ -28,7 +28,7 @@ function Header() {
             <a href="#" onClick={handleCV}>My CV</a>
           </Show>
         </div>
-        <a href="https://github.com/aceberg" target="_blank" class="flex justify-end p-4 px-12 text-xl">
+        <a href="https://github.com/aceberg" target="_blank" class="flex justify-end text-xl">
           <i class="bi bi-github"></i>
         </a>
       </div>

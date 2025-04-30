@@ -12,7 +12,7 @@ function Top(_props: any) {
         </div>
 
         <div class="relative group inline-block">
-          <div class="flex space-x-2">
+          <div class="flex space-x-2 text-gray-300">
             <i class="bi bi-star"></i>
             <p>{_props.app.Stars}</p>
           </div>

@@ -8,7 +8,7 @@ import MyCV from './pages/MyCV'
 function App() {
 
   return (
-    <div class="bg-gray-950 text-gray-300 min-h-screen flex flex-col">
+    <div class="bg-gray-950 min-h-screen flex flex-col">
       <Header></Header>
       <div class="flex justify-center px-8 mb-8">
         <div class="max-w-7xl w-full">

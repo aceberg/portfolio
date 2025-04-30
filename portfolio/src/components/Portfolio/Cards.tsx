@@ -1,6 +1,6 @@
 import { For } from "solid-js"
 import { myApps } from "../../utils/exports"
-import SingleCard from "./SingleCard"
+import Card from "./Card"
 
 
 function Cards() {
@@ -9,7 +9,7 @@ function Cards() {
     <>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
         <For each={myApps()}>{(app) =>
-          <SingleCard app={app}></SingleCard>
+          <Card app={app}></Card>
         }</For>
       </div>
     </>

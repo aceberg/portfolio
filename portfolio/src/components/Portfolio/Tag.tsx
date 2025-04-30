@@ -8,7 +8,7 @@ function Tag(_props: any) {
   }
 
   return (
-    <a class="mytag" onClick={handleFilter}>{_props.tag}</a>
+    <a class="mytag" onClick={handleFilter}>#{_props.tag}</a>
   )
 }
 
