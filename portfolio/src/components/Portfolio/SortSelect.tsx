@@ -22,7 +22,7 @@ function SortSelect() {
     let tmp = myAppsConst;
     switch (value) {
       case "name":
-        tmp.sort((a, b) => (a.Name > b.Name ? 1 : -1)*down);
+        tmp.sort((a, b) => (a.Name.toLowerCase() > b.Name.toLowerCase() ? 1 : -1)*down);
         break;
       case "created":
         tmp.sort((a, b) => (a.Created > b.Created ? 1 : -1)*down);

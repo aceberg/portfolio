@@ -23,7 +23,7 @@ function Tags() {
                 </ul>
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-300">
-              <li><Tag tag="JavaScript" />, <Tag tag="TypeScript" /></li>
+              <li><Tag tag="JavaScript" />, <Tag tag="TypeScript" />, <Tag tag="Chart.js" /></li>
               <li><Tag tag="React" /> (<Tag tag="MobX" />), <Tag tag="SolidJS" /></li>
               <li><Tag tag="Bootstrap" />, <Tag tag="Tailwind CSS" /></li>
             </td>

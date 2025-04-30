@@ -12,7 +12,10 @@ function Bottom(_props: any) {
   return (
     <>
       <div class="h-48 overflow-hidden rounded-lg relative">
-        <img src={_props.app.Screen} class="w-full h-full object-cover" />
+        {_props.app.Screen === "" ? "" : 
+          <img src={_props.app.Screen} class="w-full h-full object-cover" />
+        }
+        
 
         <div class="absolute bottom-2 right-2 bg-black/35 text-white text-sm px-2 py-1 rounded flex flex-wrap space-x-2">
           <p>Created: {_props.app.Created}</p>

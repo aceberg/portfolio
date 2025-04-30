@@ -5,7 +5,9 @@ function Top(_props: any) {
     <>
       <div class="flex justify-between">
         <div class="flex space-x-4">
+        {_props.app.Icon === "" ? "" : 
           <img src={_props.app.Icon} class="w-8 h-8 object-cover rounded-lg"></img>
+        }
           <h2 class="text-xl font-semibold text-white mb-4">{_props.app.Name}</h2>
         </div>
 
@@ -14,9 +16,7 @@ function Top(_props: any) {
             <i class="bi bi-star"></i>
             <p>{_props.app.Stars}</p>
           </div>
-          <div class="mytip">
-            GitHub stars
-          </div>
+          <div class="mytip">GitHub stars</div>
         </div>
       </div>
       
