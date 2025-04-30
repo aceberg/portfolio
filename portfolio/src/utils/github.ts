@@ -14,7 +14,7 @@ export async function getDataFromGithub() {
                 app.Text = repos[i].description;
                 app.Stars = repos[i].stargazers_count;
                 app.Created = repos[i].created_at.slice(0, 10);
-                app.Updated = repos[i].updated_at.slice(0, 10);
+                app.Updated = repos[i].pushed_at.slice(0, 10);
                 tmp.push(app);
                 break;
             }

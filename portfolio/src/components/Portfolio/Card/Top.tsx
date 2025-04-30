@@ -1,4 +1,3 @@
-import "bootstrap-icons/font/bootstrap-icons.min.css";
 
 function Top(_props: any) {
  

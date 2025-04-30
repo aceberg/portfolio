@@ -3,6 +3,7 @@ build:
 	npm run build
 
 copy:
-	cp -r dist/assets ../public
+	cp -r dist/index.css ../docs/
+	cp -r dist/index.js ../docs/
 
 all: build copy
