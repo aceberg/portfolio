@@ -6,7 +6,7 @@ function MyCV() {
 
   return (
     <>
-      <p>My CV will be here</p>
+      <p class="text-white">My CV will be here</p>
     </>
   )
 }
