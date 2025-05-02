@@ -1,4 +1,8 @@
+import About from "../components/MyCV/About"
+import Education from "../components/MyCV/Education"
+import Fullstack from "../components/MyCV/Fullstack"
 import Sidebar from "../components/MyCV/Sidebar"
+import Sysadmin from "../components/MyCV/Sysadmin"
 
 
 function MyCV() {
@@ -11,7 +15,14 @@ function MyCV() {
         <div class="col-span-1">
           <Sidebar></Sidebar>
         </div>
-        <div class="mycard col-span-2 p-4">Main content</div>
+        <div class="col-span-2">
+          <div class="grid grid-cols-1 gap-8">
+          <About></About>
+          <Fullstack></Fullstack>
+          <Sysadmin></Sysadmin>
+          <Education></Education>
+          </div>
+        </div>
       </div>
     </>
   )

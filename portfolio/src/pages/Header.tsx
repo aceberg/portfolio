@@ -1,5 +1,5 @@
 import { Show } from "solid-js"
-import { currentPage, setCurrentPage } from "../utils/exports"
+import { currentPage, myAppsConst, setCurrentPage, setMyApps } from "../utils/exports"
 
 
 function Header() {
@@ -10,6 +10,8 @@ function Header() {
 
   const handlePortfolio = () => {
     setCurrentPage("portfolio");
+    setMyApps([]);
+    setMyApps(myAppsConst);
   }
 
   return (
@@ -24,7 +26,7 @@ function Header() {
               <a href="#" class="text-indigo-200">My CV</a>
             </>}
           >
-            <a href="#" class="text-indigo-200">Portfolio</a>
+            <a href="#" onClick={handlePortfolio} class="text-indigo-200">Portfolio</a>
             <a href="#" onClick={handleCV}>My CV</a>
           </Show>
         </div>
