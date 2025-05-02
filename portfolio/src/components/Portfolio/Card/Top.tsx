@@ -8,7 +8,7 @@ function Top(_props: any) {
         {_props.app.Icon === "" ? "" : 
           <img src={_props.app.Icon} class="w-8 h-8 object-cover rounded-lg"></img>
         }
-          <h2 class="text-xl font-semibold text-white mb-4">{_props.app.Name}</h2>
+          <h2 class="myh2">{_props.app.Name}</h2>
         </div>
 
         <div class="relative group inline-block">
@@ -20,7 +20,7 @@ function Top(_props: any) {
         </div>
       </div>
       
-      <p class="text-gray-400 mb-6 leading-relaxed">
+      <p class="mytext">
         {_props.app.Text}
       </p>
     </>
