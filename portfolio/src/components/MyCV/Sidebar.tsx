@@ -26,7 +26,8 @@ function Sidebar() {
           <div class="mytip">Telegram</div>
         </div>
 
-        <div class="mt-16 grid grid-cols-4 gap-4">
+        <h2 class="mt-12 mb-6 font-semibold text-white">Skills</h2>
+        <div class="grid grid-cols-4 gap-4">
         <IconTag icon="devicon-bootstrap-plain-wordmark" tag="Bootstrap" l="y"></IconTag>
         <IconTag icon="devicon-firefox-plain" tag="Firefox Extension" l="y"></IconTag>
         <IconTag icon="devicon-flutter-plain" tag="Flutter" l="y"></IconTag>

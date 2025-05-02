@@ -4,18 +4,15 @@ import Fullstack from "../components/MyCV/Fullstack"
 import Sidebar from "../components/MyCV/Sidebar"
 import Sysadmin from "../components/MyCV/Sysadmin"
 
-
 function MyCV() {
-
-
 
   return (
     <>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-        <div class="col-span-1">
+      <div class="flex flex-col md:flex-row gap-8 mt-4">
+        <div class="w-full md:w-1/3">
           <Sidebar></Sidebar>
         </div>
-        <div class="col-span-2">
+        <div class="w-full md:w-2/3">
           <div class="grid grid-cols-1 gap-8">
           <About></About>
           <Fullstack></Fullstack>
