@@ -5,7 +5,7 @@
 }
 
 .mytag {
-    @apply font-medium text-sm text-indigo-400 hover:text-indigo-300 transition cursor-pointer
+    @apply font-medium text-indigo-400 hover:text-indigo-300 transition cursor-pointer
 }
 
 .mytip {

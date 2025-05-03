@@ -7,11 +7,12 @@ function Sysadmin() {
     <>
     <CardCV head="Linux System Administrator (2011 – 2024)"
       body={<>
-        <div>Over a decade of experience managing Linux infrastructure, automation, and security.</div>
+        <div>Administration of local networks, servers and workstations
+        on Linux</div>
         <div class="px-4">
-        <li>Maintained server and desktop infrastructure</li>
-        <li>Automated workflows using Ansible and optimized deployments with Docker</li>
-        <li>Configured CI/CD pipelines and enhanced system monitoring with Grafana</li>
+          <li>Configuration automation (Ansible, Docker, git)</li>
+          <li>Network security, protection against hacking and data loss</li>
+          <li>Migration from Windows to Linux, user training</li>
         </div>
       </>}
     ></CardCV>

@@ -20,7 +20,7 @@
         "Icon": "https://raw.githubusercontent.com/aceberg/WatchYourPorts/refs/heads/main/assets/logo.png",
         "Link": "https://github.com/aceberg/WatchYourPorts",
         "Screen": "https://raw.githubusercontent.com/aceberg/WatchYourPorts/refs/heads/main/assets/Screenshot1.png",
-        "Tags": ["Go", "JavaScript", "gin", "Bootstrap"],
+        "Tags": ["Go", "JavaScript", "gin", "Bootstrap", "InfluxDB"],
         "Stars": "158"
     },
     {

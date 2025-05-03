@@ -24,9 +24,13 @@ export const [myApps, setMyApps] = createSignal<AppType[]>(myAppsConst);
 function assignIDs () {
     let apps = myAppsJSON as AppType[];
     let newApps = <AppType[]>[];
+    let tags = <string[]>[];
 
     for (let i = 0; i < apps.length; i++) {
         apps[i].ID = i;
+        tags = apps[i].Tags;
+        tags.sort((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : -1);
+        apps[i].Tags = tags;
         newApps.push(apps[i]);
     }
 
