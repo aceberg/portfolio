@@ -37,9 +37,9 @@ function Sidebar() {
         <IconTag icon="devicon-postgresql-plain-wordmark" tag="PostgreSQL" l="y" />
         <IconTag icon="devicon-react-original-wordmark" tag="React" l="y" />
         <IconTag icon="devicon-solidjs-plain" tag="SolidJS" l="y" />
+        <IconTag icon="devicon-swagger-plain-wordmark" tag="Swagger" l="y" />
         <IconTag icon="devicon-tailwindcss-plain" tag="Tailwind CSS" l="y" />
         <IconTag icon="devicon-typescript-plain" tag="TypeScript" l="y" />
-        <IconTag icon="devicon-vite-original-wordmark" tag="Vite" />
         </div>
 
         <div class="mt-16 grid grid-cols-4 gap-4">

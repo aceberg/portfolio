@@ -139,5 +139,12 @@
         "Link": "https://github.com/aceberg/portfolio",
         "Screen": "",
         "Tags": ["SolidJS", "TypeScript", "Tailwind CSS"]
+    },
+    {
+        "Name": "FunBoard",
+        "Icon": "https://raw.githubusercontent.com/aceberg/FunBoard/refs/heads/main/assets/logo.png",
+        "Link": "https://github.com/aceberg/FunBoard",
+        "Screen": "https://raw.githubusercontent.com/aceberg/FunBoard/refs/heads/main/assets/Screenshot_01.png",
+        "Tags": ["Go", "Fiber", "GORM", "Swagger", "SolidJS", "TypeScript", "Tailwind CSS"]
     }
 ]
