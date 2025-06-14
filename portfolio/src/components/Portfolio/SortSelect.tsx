@@ -20,7 +20,7 @@ function SortSelect() {
   }
 
   const pageReload = () => {
-    window.location.href = "/";
+    window.location.href = window.location.href;
   }
 
   return (
