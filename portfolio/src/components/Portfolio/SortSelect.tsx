@@ -19,8 +19,16 @@ function SortSelect() {
     setSelectValue("by");
   }
 
+  const pageReload = () => {
+    window.location.href = "/";
+  }
+
   return (
     <div class="flex justify-end">
+      <div class="relative group inline-block p-1 me-2" onClick={pageReload}>
+        <i class="bi bi-arrow-clockwise text-gray-400 hover:text-indigo-300 cursor-pointer"></i>
+        <div class="mytip">Reload page</div>
+      </div>
       <select class="mysort" onChange={(event)=>{handleSort(event)}} value={selectValue()}>
         <option value="by" selected disabled>Sort by...</option>
         <option value="default">Default</option>
