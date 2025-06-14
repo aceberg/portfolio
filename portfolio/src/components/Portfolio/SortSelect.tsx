@@ -20,7 +20,8 @@ function SortSelect() {
   }
 
   const pageReload = () => {
-    window.location.href = window.location.href;
+    const url = window.location.href.split('?')[0];
+    window.location.href = url + '?cachebuster=' + new Date().getTime();
   }
 
   return (
