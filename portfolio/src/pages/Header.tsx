@@ -22,12 +22,12 @@ function Header() {
         <Show
             when={currentPage() === "portfolio"}
             fallback={<>
-              <a href="#" onClick={handlePortfolio}>Portfolio</a>
-              <a href="#" class="text-indigo-200">My CV</a>
+              <a href="#" onClick={handlePortfolio} class="text-indigo-200">Portfolio</a>
+              <a href="#">My CV</a>
             </>}
           >
-            <a href="#" onClick={handlePortfolio} class="text-indigo-200">Portfolio</a>
-            <a href="#" onClick={handleCV}>My CV</a>
+            <a href="#" onClick={handlePortfolio}>Portfolio</a>
+            <a href="#" onClick={handleCV} class="text-indigo-200">My CV</a>
           </Show>
         </div>
         <a href="https://github.com/aceberg" target="_blank" class="flex justify-end text-xl">

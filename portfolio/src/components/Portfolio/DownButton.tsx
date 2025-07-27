@@ -29,7 +29,7 @@ function DownButton() {
     });
   };
 
-  const styleClass = "text-gray-400 hover:text-indigo-300 text-xl cursor-pointer"
+  const styleClass = "text-gray-400 p-2 hover:bg-gray-800 rounded hover:text-indigo-300 text-2xl cursor-pointer"
 
   return (
     <div class="fixed bottom-4 right-4 flex flex-col space-y-1 z-50">

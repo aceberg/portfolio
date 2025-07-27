@@ -4,7 +4,7 @@
         "Icon": "https://raw.githubusercontent.com/aceberg/WatchYourLAN/refs/heads/main/assets/logo.png",
         "Link": "https://github.com/aceberg/WatchYourLAN",
         "Screen": "https://raw.githubusercontent.com/aceberg/WatchYourLAN/refs/heads/main/assets/Screenshot_1.png",
-        "Tags": ["Go", "SolidJS", "TypeScript", "gin", "InfluxDB", "PostgreSQL", "Prometheus"]
+        "Tags": ["Go", "GORM", "SolidJS", "TypeScript", "gin", "InfluxDB", "PostgreSQL", "Prometheus", "Bootstrap"]
     },
     {
         "Name": "ExerciseDiary",
@@ -119,17 +119,17 @@
         "Tags": ["Go", "Bootstrap"]
     },
     {
-        "Name": "portfolio",
-        "Icon": "https://raw.githubusercontent.com/aceberg/portfolio/refs/heads/main/assets/logo.jpg",
-        "Link": "https://github.com/aceberg/portfolio",
-        "Screen": "",
-        "Tags": ["SolidJS", "TypeScript", "Tailwind CSS"]
-    },
-    {
         "Name": "FunBoard",
         "Icon": "https://raw.githubusercontent.com/aceberg/FunBoard/refs/heads/main/assets/logo.png",
         "Link": "https://github.com/aceberg/FunBoard",
         "Screen": "https://raw.githubusercontent.com/aceberg/FunBoard/refs/heads/main/assets/Screenshot_01.png",
-        "Tags": ["Go", "Fiber", "GORM", "Swagger", "SolidJS", "TypeScript", "Tailwind CSS"]
+        "Tags": ["Go", "Fiber", "GORM", "Swagger", "SolidJS", "TypeScript", "Tailwind CSS", "PostgreSQL"]
+    },
+    {
+        "Name": "portfolio",
+        "Icon": "https://raw.githubusercontent.com/aceberg/portfolio/refs/heads/main/assets/logo.jpg",
+        "Link": "https://github.com/aceberg/portfolio",
+        "Screen": "https://raw.githubusercontent.com/aceberg/portfolio/refs/heads/main/assets/Screenshot1.png",
+        "Tags": ["SolidJS", "TypeScript", "Tailwind CSS"]
     }
 ]
