@@ -10,8 +10,9 @@ function Sysadmin() {
         <div>Administration of local networks, servers and workstations
         on Linux</div>
         <div class="px-4">
-          <li>Configuration automation (Ansible, Docker, git)</li>
-          <li>Network security, protection against hacking and data loss</li>
+          <li>Configuration automation: Ansible, Docker, git</li>
+          <li>Monitoring: Grafana, InfluxDB, Prometheus</li>
+          <li>Network security, protection against hacking and data loss: backups, firewalls</li>
           <li>Migration from Windows to Linux, user training</li>
         </div>
       </>}
