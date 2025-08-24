@@ -34,7 +34,7 @@ function Sidebar() {
         <IconTag icon="devicon-go-original-wordmark" tag="Go" l="y" />
         <IconTag icon="devicon-javascript-plain" tag="JavaScript" l="y" />  
         <IconTag icon="devicon-mobx-plain" tag="MobX" l="y" />
-        <IconTag icon="devicon-postgresql-plain-wordmark" tag="PostgreSQL" l="y" />
+        <IconTag icon="devicon-python-plain-wordmark" tag="Python" l="y" />
         <IconTag icon="devicon-react-original-wordmark" tag="React" l="y" />
         <IconTag icon="devicon-solidjs-plain" tag="SolidJS" l="y" />
         <IconTag icon="devicon-swagger-plain-wordmark" tag="Swagger" l="y" />
@@ -43,18 +43,18 @@ function Sidebar() {
         </div>
 
         <div class="mt-16 grid grid-cols-4 gap-4">
-        <IconTag icon="devicon-ansible-plain-wordmark" tag="Ansible" />
-        <IconTag icon="devicon-bash-plain" tag="Bash" />
-        <IconTag icon="devicon-debian-plain-wordmark" tag="Debian" />
-        <IconTag icon="devicon-docker-plain-wordmark" tag="Docker" />
-        <IconTag icon="devicon-git-plain-wordmark" tag="Git" />
-        <IconTag icon="devicon-grafana-plain-wordmark" tag="Grafana" />
+        <IconTag icon="devicon-ansible-plain-wordmark" tag="Ansible" l="y" />
+        <IconTag icon="devicon-bash-plain" tag="Bash" l="y"/>
+        <IconTag icon="devicon-docker-plain-wordmark" tag="Docker" l="y" />
+        <IconTag icon="devicon-git-plain-wordmark" tag="git" l="y" />
+        <IconTag icon="devicon-grafana-plain-wordmark" tag="Grafana" l="y" />
+        <IconTag icon="devicon-helm-original" tag="Helm" l="y"/>
         <IconTag icon="devicon-influxdb-original-wordmark" tag="InfluxDB" l="y" />
-        <IconTag icon="devicon-kubernetes-plain-wordmark" tag="Kubernetes" />
-        <IconTag icon="devicon-linux-plain" tag="Linux" />
+        <IconTag icon="devicon-kubernetes-plain-wordmark" tag="Kubernetes" l="y" />
+        <IconTag icon="devicon-codepen-original" tag="LXD/Incus" l="y"/>
+        <IconTag icon="devicon-mysql-plain-wordmark" tag="MySQL" l="y" />
+        <IconTag icon="devicon-postgresql-plain-wordmark" tag="PostgreSQL" l="y" />
         <IconTag icon="devicon-prometheus-plain-wordmark" tag="Prometheus" l="y" />
-        <IconTag icon="devicon-redhat-plain-wordmark" tag="RedHat" />
-        <IconTag icon="devicon-ubuntu-plain-wordmark" tag="Ubuntu" />
         </div>
       </>}
     ></CardCV>

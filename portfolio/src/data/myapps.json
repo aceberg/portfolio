@@ -4,7 +4,7 @@
         "Icon": "https://raw.githubusercontent.com/aceberg/WatchYourLAN/refs/heads/main/assets/logo.png",
         "Link": "https://github.com/aceberg/WatchYourLAN",
         "Screen": "https://raw.githubusercontent.com/aceberg/WatchYourLAN/refs/heads/main/assets/Screenshot_1.png",
-        "Tags": ["Go", "GORM", "SolidJS", "TypeScript", "gin", "InfluxDB", "PostgreSQL", "Prometheus", "Bootstrap"]
+        "Tags": ["Go", "GORM", "SolidJS", "TypeScript", "gin", "InfluxDB", "PostgreSQL", "Prometheus", "Bootstrap", "Grafana"]
     },
     {
         "Name": "ExerciseDiary",
@@ -18,21 +18,21 @@
         "Icon": "https://raw.githubusercontent.com/aceberg/WatchYourPorts/refs/heads/main/assets/logo.png",
         "Link": "https://github.com/aceberg/WatchYourPorts",
         "Screen": "https://raw.githubusercontent.com/aceberg/WatchYourPorts/refs/heads/main/assets/Screenshot1.png",
-        "Tags": ["Go", "JavaScript", "gin", "Bootstrap", "InfluxDB"]
+        "Tags": ["Go", "JavaScript", "gin", "Bootstrap", "InfluxDB", "Grafana"]
     },
     {
         "Name": "AnyAppStart",
         "Icon": "https://raw.githubusercontent.com/aceberg/AnyAppStart/refs/heads/main/assets/logo.png",
         "Link": "https://github.com/aceberg/AnyAppStart",
         "Screen": "https://raw.githubusercontent.com/aceberg/AnyAppStart/refs/heads/main/assets/Screenshot_06.png",
-        "Tags": ["Go", "React", "TypeScript", "gin", "MobX", "Bootstrap"]
+        "Tags": ["Go", "React", "TypeScript", "gin", "MobX", "Bootstrap", "Docker", "LXD/Incus"]
     },
     {
         "Name": "miniboard",
         "Icon": "https://raw.githubusercontent.com/aceberg/miniboard/refs/heads/main/assets/logo.png",
         "Link": "https://github.com/aceberg/miniboard",
         "Screen": "https://raw.githubusercontent.com/aceberg/miniboard/main/assets/Screenshot%202023-06-25%20at%2022-55-05%20MiniBoard%20-%20Docker.png",
-        "Tags": ["Go", "Bootstrap"]
+        "Tags": ["Go", "Bootstrap", "Docker"]
     },
     {
         "Name": "BookTr",
@@ -88,14 +88,14 @@
         "Icon": "https://raw.githubusercontent.com/aceberg/git-confed/refs/heads/main/assets/logo.png",
         "Link": "https://github.com/aceberg/git-confed",
         "Screen": "https://raw.githubusercontent.com/aceberg/git-confed/main/assets/Screenshot%202023-05-26%20at%2016-08-42%20Git%20Config%20Editor.png",
-        "Tags": ["Go", "Bootstrap"]
+        "Tags": ["Go", "Bootstrap", "git"]
     },
     {
         "Name": "git-syr",
         "Icon": "https://raw.githubusercontent.com/aceberg/git-syr/refs/heads/main/assets/logo.png",
         "Link": "https://github.com/aceberg/git-syr",
         "Screen": "https://raw.githubusercontent.com/aceberg/git-syr/main/assets/Screenshot%202022-12-22%20at%2012-51-48%20Sync%20Your%20Repos.png",
-        "Tags": ["Go", "Bootstrap"]
+        "Tags": ["Go", "Bootstrap", "git"]
     },
     {
         "Name": "HomeLists",
@@ -116,7 +116,7 @@
         "Icon": "https://raw.githubusercontent.com/aceberg/gans/refs/heads/main/assets/logo.png",
         "Link": "https://github.com/aceberg/gans",
         "Screen": "https://raw.githubusercontent.com/aceberg/gans/main/assets/Screenshot%202023-01-23%20at%2019-34-01%20gans.png",
-        "Tags": ["Go", "Bootstrap"]
+        "Tags": ["Go", "Bootstrap", "git", "Ansible"]
     },
     {
         "Name": "FunBoard",
@@ -131,5 +131,54 @@
         "Link": "https://github.com/aceberg/portfolio",
         "Screen": "https://raw.githubusercontent.com/aceberg/portfolio/refs/heads/main/assets/Screenshot1.png",
         "Tags": ["SolidJS", "TypeScript", "Tailwind CSS"]
+    },
+    {
+        "Name": "my-playbooks",
+        "Icon": "",
+        "Link": "https://github.com/aceberg/my-playbooks",
+        "Screen": "",
+        "Tags": ["Ansible", "Docker", "Kubernetes", "LXD/Incus"]
+    },
+    {
+        "Name": "my-dockerfiles",
+        "Icon": "",
+        "Link": "https://github.com/aceberg/my-dockerfiles",
+        "Screen": "",
+        "Tags": ["Docker"]
+    },
+    {
+        "Name": "k8s_homework",
+        "Icon": "",
+        "Link": "https://github.com/aceberg/k8s_homework",
+        "Screen": "",
+        "Tags": ["Docker", "Kubernetes", "Prometheus", "Grafana", "Python"]
+    },
+    {
+        "Name": "k8s_resources",
+        "Icon": "",
+        "Link": "https://github.com/aceberg/k8s_resources",
+        "Screen": "",
+        "Tags": ["Docker", "Kubernetes", "MySQL", "Python"]
+    },
+    {
+        "Name": "k8s_helm",
+        "Icon": "",
+        "Link": "https://github.com/aceberg/k8s_helm",
+        "Screen": "",
+        "Tags": ["Kubernetes", "Helm"]
+    },
+    {
+        "Name": "letsup",
+        "Icon": "",
+        "Link": "https://github.com/aceberg/letsup",
+        "Screen": "",
+        "Tags": ["Python"]
+    },
+    {
+        "Name": "gtk_weather",
+        "Icon": "",
+        "Link": "https://github.com/aceberg/gtk_weather",
+        "Screen": "",
+        "Tags": ["Python"]
     }
 ]
