@@ -4,7 +4,7 @@
         "Icon": "https://raw.githubusercontent.com/aceberg/WatchYourLAN/refs/heads/main/assets/logo.png",
         "Link": "https://github.com/aceberg/WatchYourLAN",
         "Screen": "https://raw.githubusercontent.com/aceberg/WatchYourLAN/refs/heads/main/assets/Screenshot_1.png",
-        "Tags": ["Go", "GORM", "SolidJS", "TypeScript", "gin", "InfluxDB", "PostgreSQL", "Prometheus", "Bootstrap", "Grafana"]
+        "Tags": ["Go", "GORM", "SolidJS", "TypeScript", "gin", "InfluxDB", "PostgreSQL", "Prometheus", "Bootstrap", "Grafana", "Swagger"]
     },
     {
         "Name": "ExerciseDiary",
