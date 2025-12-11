@@ -81,7 +81,7 @@
         "Icon": "https://raw.githubusercontent.com/aceberg/WMService2/refs/heads/main/assets/images/icon.png",
         "Link": "https://github.com/aceberg/WMService2",
         "Screen": "https://raw.githubusercontent.com/aceberg/WMService2/main/assets/screenshots/Screenshot_1.png",
-        "Tags": ["Flutter"]
+        "Tags": ["Android", "Flutter"]
     },
     {
         "Name": "git-confed",
@@ -117,6 +117,13 @@
         "Link": "https://github.com/aceberg/gans",
         "Screen": "https://raw.githubusercontent.com/aceberg/gans/main/assets/Screenshot%202023-01-23%20at%2019-34-01%20gans.png",
         "Tags": ["Go", "Bootstrap", "git", "Ansible"]
+    },
+    {
+        "Name": "TrayPumpkin",
+        "Icon": "https://raw.githubusercontent.com/aceberg/TrayPumpkin/refs/heads/main/assets/logo.png",
+        "Link": "https://github.com/aceberg/TrayPumpkin",
+        "Screen": "https://raw.githubusercontent.com/aceberg/TrayPumpkin/refs/heads/main/assets/Screenshot-all.png",
+        "Tags": ["Desktop", "Qt/c++"]
     },
     {
         "Name": "FunBoard",
