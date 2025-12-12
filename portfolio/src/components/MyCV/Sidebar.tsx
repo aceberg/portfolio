@@ -34,7 +34,7 @@ function Sidebar() {
         <IconTag icon="devicon-go-original-wordmark" tag="Go" l="y" />
         <IconTag icon="devicon-javascript-plain" tag="JavaScript" l="y" />  
         <IconTag icon="devicon-mobx-plain" tag="MobX" l="y" />
-        <IconTag icon="devicon-qt-original" tag="Qt/c++" l="y" />
+        <IconTag icon="devicon-qt-original" tag="Qt/C++" l="y" />
         <IconTag icon="devicon-react-original-wordmark" tag="React" l="y" />
         <IconTag icon="devicon-solidjs-plain" tag="SolidJS" l="y" />
         <IconTag icon="devicon-swagger-plain-wordmark" tag="Swagger" l="y" />

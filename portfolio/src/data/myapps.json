@@ -123,7 +123,7 @@
         "Icon": "https://raw.githubusercontent.com/aceberg/TrayPumpkin/refs/heads/main/assets/logo.png",
         "Link": "https://github.com/aceberg/TrayPumpkin",
         "Screen": "https://raw.githubusercontent.com/aceberg/TrayPumpkin/refs/heads/main/assets/Screenshot-all.png",
-        "Tags": ["Desktop", "Qt/c++"]
+        "Tags": ["Desktop", "Qt/C++"]
     },
     {
         "Name": "FunBoard",
@@ -186,6 +186,6 @@
         "Icon": "",
         "Link": "https://github.com/aceberg/gtk_weather",
         "Screen": "",
-        "Tags": ["Python"]
+        "Tags": ["Desktop", "Python"]
     }
 ]
