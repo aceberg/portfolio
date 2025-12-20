@@ -187,5 +187,12 @@
         "Link": "https://github.com/aceberg/gtk_weather",
         "Screen": "",
         "Tags": ["Desktop", "Python"]
+    },
+    {
+        "Name": "JellyTab",
+        "Icon": "https://raw.githubusercontent.com/aceberg/JellyTab/refs/heads/main/assets/logo.png",
+        "Link": "https://github.com/aceberg/JellyTab",
+        "Screen": "https://raw.githubusercontent.com/aceberg/JellyTab/refs/heads/main/assets/Screenshot_1.png",
+        "Tags": ["Desktop", "Qt/C++"]
     }
 ]
