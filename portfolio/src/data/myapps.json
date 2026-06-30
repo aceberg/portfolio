@@ -201,5 +201,12 @@
         "Link": "https://github.com/aceberg/unbox",
         "Screen": "https://raw.githubusercontent.com/aceberg/unbox/refs/heads/main/assets/Screenshot_1.png",
         "Tags": ["Go"]
+    },
+    {
+        "Name": "ReSend",
+        "Icon": "https://raw.githubusercontent.com/aceberg/resend/refs/heads/main/assets/logo.png",
+        "Link": "https://github.com/aceberg/resend",
+        "Screen": "https://raw.githubusercontent.com/aceberg/resend/refs/heads/main/assets/Screenshot_1.png",
+        "Tags": ["Go"]
     }
 ]
